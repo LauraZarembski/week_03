@@ -1,12 +1,12 @@
 /* YOUR CSS GOES HERE */
 html {
   font-size: 16px;
-  line-height: 1.75rem;
+  line-height: 1.5rem;
   font-family: 'Source Sans Pro', sans-serif;
   color: #303030;
 }
 body {
-  border: 1px solid blue;
+  border: 1px solid brown;
   width: 300px;
   padding: 1em;
   margin: 0 auto;
@@ -14,7 +14,7 @@ body {
 h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 165%;
-  margin: -2em 0 0 0;
+  margin: -1.75em 0 0 0;
 }
 a {
   text-decoration: none;
@@ -68,15 +68,16 @@ background-color: #f1f1f1
 .dropdownMenu:hover .dropdownContent {
   display: block;
 }
-
-
-
 #phone, #pin {
   top:0;
-  left: 13em;
+  left: 5.75em;
+  padding: .4em .5em;
+  font-size: 1.75em;
+  color: white;
 }
-
-
 #logo {
   margin: 2.65em 4em   
+}
+.introduction {
+  margin: 2em 0 0 0;
 }
