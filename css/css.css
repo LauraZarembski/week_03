@@ -15,13 +15,14 @@ h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 165%;
   text-align: center;
-  margin: -12% 0 0 0;
+  margin: -17% 0 0 0;
 }
 h2 {
   font-size: 130%;
-  margin: 1.5em 0 -.75em -1em;
+  margin: 1.5em 0 -.75em -.5em;
 }
 a {
+  padding: 22px;
   text-decoration: none;
 }
 li {
@@ -33,20 +34,25 @@ li {
   top: 0em;
   left: 0em;
   width: 100%;
-  height: 4.5%;
   background-color: #5B3A59;
 }
 i {
-  display: block;
-  padding: 1em 1em;
+  display: inline-block;
+  padding: 12px;
   position: relative;
 }
 #dropBtn {
+  border: 1px solid red;
   color: white;
-  padding: .5em .5em;
   font-size: 1.5em;
-  margin: 0 1.75em;
+  margin: 0 1.65em;
   cursor: pointer;
+}
+#phone, #pin {
+  top: 0;
+  left: 10%;
+  font-size: 1.75em;
+  color: white;
 }
 .dropdownMenu {
   position: relative;
@@ -55,11 +61,11 @@ i {
 .dropdownContent {
   display: none;
   position: absolute;
-  left: 2em;
-  top: 2.65em;
+  top: 1.55em;
+  left: 1em;
   background-color: #f9f9f9;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  width: 260%;
+  width: 163%;
   z-index: 1000;
 }
 .dropdownContent a {
@@ -75,20 +81,12 @@ background-color: #f1f1f1
 .dropdownMenu:hover .dropdownContent {
   display: block;
 }
-#phone, #pin {
-  top: 0;
-  left: 35%;
-  padding: 3% 3%;
-  font-size: 1.75em;
-  color: white;
-}
 #logo {
-  margin: 2.65em 4em   
+  margin: 3em 4em   
 }
 .introduction {
-  margin: 2em 0 0 0;
+  margin: 2.5em 0 0 0;
 }
-
 table {
   width: 100%;
   margin: 1em auto;
@@ -107,9 +105,24 @@ iframe {
   border: .5px solid #303030;
 }
 .address p {
-  line-height: .25em;
+  line-height: .5em;
 }
-
+.cuPhone {
+  margin: 2em 0 0 0;
+  padding: 22px;
+  text-align: center;
+  font-weight: bolder;
+  border: 2px solid #5c892c;
+}
+footer {
+  margin: 3em 0 0 0;
+  border-top: .25px solid #303030;
+}
+footer p {
+  font-size: 75%;
+  text-align: center;
+  margin: -.5em 0 0 0;
+}
 
 
 
